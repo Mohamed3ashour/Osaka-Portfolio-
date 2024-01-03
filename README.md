@@ -1,2 +1,2 @@
 # Osaka-Portfolio-
-this website portfolio utilizes HTML, CSS, Bootstrap, JavaScript, and jQuery to create a visually appealing and user-friendly interface
+this website portfolio utilizes HTML, CSS, Bootstrap, JavaScript, and jQuery to create a visually appealing and user-friendly interface. It incorporates responsive design principles to ensure optimal viewing experience on various devices, such as desktops, tablets, and mobile phones. The combination of these technologies enables the portfolio owner to showcase their work, expertise, and services effectively while engaging with potential clients or collaborators.
