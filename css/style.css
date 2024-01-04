@@ -1,0 +1,231 @@
+body 
+{
+    /* color: var(--mainColor) !important; */
+    font-family: 'segoe ui light';
+    overflow-y: hidden;
+ 
+}
+@font-face {
+    font-family: 'ashry';
+    src: url(../webfonts/BebasNeue-Regular.ttf);
+}
+
+#btnUp
+{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 999999;
+    display: none;
+}
+
+#loading
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    z-index: 99999999999;
+}
+
+#options{
+    position: fixed;
+    left: 0;
+    top: 150px;
+    z-index: 99999999;
+}
+#options i{
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    cursor: pointer;
+}
+#colorsBox{
+    padding: 10px; 
+    background-color: azure;
+
+}
+.collor-item{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.text-mine ,.color-main
+{
+    color: #ff206e !important;
+}
+.bg-mine 
+{
+    background-color: #ff206e !important;
+}
+a:hover
+{
+    text-decoration: none;
+}
+.social-logo i{
+    color: azure;
+}
+header{
+    background-image: url(../images/bg.jpg);
+    background-size:cover ;
+    background-position:center center ;
+}
+.icon{
+    margin: 0px 5px;
+    width: 2.2rem;
+    height: 2.2rem;
+    border: solid 1px rgba(255, 255, 255, .5);
+}
+.header-content .icon:hover{
+    background-color: #ff206e;
+    color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255,255,255)!important;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff206e !important;
+}
+.navbar-padding
+{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#main-nav
+{
+    transition: background-color  5s , padding 1s ;
+}
+
+.tittle h2{
+    font-size: 80px;
+    color: #f1f1f1 ;
+    letter-spacing: 15px;
+    font-family: 'ashry';
+}
+.tittle h3{
+    font-size: 40px;
+    letter-spacing: 15px;
+    font-family: 'ashry';
+}
+.about,.profile,.testimonials ,.bg-dot{
+    background-image: url(../images/light_dot.jpg);
+}
+.services,.blog {
+    background-image: url(../images/dark_dot.jpg);
+}
+.services .tittle h2 , .blog .tittle h2 {
+    color: #222;
+}
+.services .tittle h3 ,.blog .tittle h3{
+    color: #fff;
+}
+.border-line{
+    width: 25%;
+    height: 2px;
+    margin: 15px auto;
+}
+.item:hover .icon ,.btn-hover:hover  {
+    background-color: #ff206e !important;
+    color: rgb(245, 240, 240) !important;
+}
+.item:hover{
+    cursor: pointer;
+}
+.item:hover h3  {
+    color: #ff206e !important;
+}
+.client-img{
+    width: 90px;
+    border: 3px solid #f4f4f4;
+    transform: translateY(50%);
+}
+.client-feedback{
+    border: 2px solid #f4f4f4;
+}
+.client-feedback .border-line{
+    width: 8%;
+}
+.carousel-indicators [data-bs-target]{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-indent: 0 ;
+}
+.asto-icon{
+    width: 80px;
+    height:80px;
+    --fa-rotate-angle: 45deg;
+}
+.fa-heart:hover{
+    color: #84636e !important ;
+    cursor: pointer;
+}
+.blog h2{
+    font-family: 'ashry';
+}
+.bg-mine-dark
+{
+    background-color: #f1f1f1 !important;
+}
+#contact{
+    background-color: #f1f1f1;
+;
+}
+
+.spinner {
+    margin: 200px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .spinner > div {
+    background-color: #fff;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  }
+  
+  .spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+  }
+  
+  .spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  .spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+  
+  .spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+  }
+  
+  @-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+  }
+  
+  @keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+      transform: scaleY(0.4);
+      -webkit-transform: scaleY(0.4);
+    }  20% { 
+      transform: scaleY(1.0);
+      -webkit-transform: scaleY(1.0);
+    }
+  }
