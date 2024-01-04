@@ -21,6 +21,9 @@ body
 
 #loading
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -178,7 +181,8 @@ header{
 }
 
 .spinner {
-    margin: 200px auto;
+    /* margin: 200px auto; */
+   
     width: 50px;
     height: 40px;
     text-align: center;
