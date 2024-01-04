@@ -94,11 +94,6 @@ header{
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #ff206e !important;
 }
-.navbar-padding
-{
-    padding-left: 60px;
-    padding-right: 60px;
-}
 #main-nav
 {
     transition: background-color  5s , padding 1s ;
@@ -233,3 +228,9 @@ header{
       -webkit-transform: scaleY(1.0);
     }
   }
+  @media screen and (max-width: 992px) {
+    
+      .navbar{
+        padding: 15px;
+      }
+    }

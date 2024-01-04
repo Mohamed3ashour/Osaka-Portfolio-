@@ -59,4 +59,6 @@ $('#options i').click(function () {
         $('#options').animate({left:'0px'},1000)
     }
   })
-  const navbarToggler = document.querySelector('.navbar-toggler'); navbarToggler.addEventListener('click', function() { const collapse = document.querySelector('.navbar-collapse'); collapse.classList.toggle('show'); })
+  const navbarToggler = document.querySelector('.navbar-toggler'); 
+  navbarToggler.addEventListener('click', function() { const collapse = document.querySelector('.navbar-collapse'); 
+  collapse.classList.toggle('show'); })
